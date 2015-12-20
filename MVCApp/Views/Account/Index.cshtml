@@ -4,12 +4,13 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
-
+<br />
+<h2 class="center">Index</h2>
+<br />
 
 @using (Html.BeginForm("LogIn", "Account", FormMethod.Post))
 {
-    <table>
+    <table class="center">
         <tr>
             <td>Name: </td>
             <td>@Html.TextBox("login", "")</td>
@@ -19,7 +20,8 @@
             <td>@Html.Password("password", "")</td>
         </tr>
     </table>
-    <p><input type="submit" value="Log in" /></p>
+    <br />
+    <input class="center" type="submit" value="Log in" />
 }
 
 @section Scripts {

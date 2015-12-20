@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="tolstolutskiy" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Евгений\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCApp\\MVCApp\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Евгений\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCApp\\MVCApp\\obj\\Release\\Package\\PackageTmp$" />
+  <parameter name="IIS Web Application Name" description="" value="eliseeva" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Мария\\ХНУРЭ\\5\ семестр\\Асп\\MVCApp\\MVCApp\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Мария\\ХНУРЭ\\5\ семестр\\Асп\\MVCApp\\MVCApp\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="GoodsEntities-Web.config Connection String" description="" value="metadata=res://*/Models.Goods.csdl|res://*/Models.Goods.ssdl|res://*/Models.Goods.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=dh1poohcpk.database.windows.net;Initial Catalog=Goods;Persist Security Info=True;User ID=Evgeniy;Password=parollNUM1996!;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Евгений\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCApp\\MVCApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GoodsEntities']/@connectionString" />
+  <parameter name="GoodsEntities-Web.config Connection String" description="" value="metadata=res://*/Models.Goods.csdl|res://*/Models.Goods.ssdl|res://*/Models.Goods.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=dh1poohcpk.database.windows.net;initial catalog=Goods;persist security info=True;user id=Evgeniy;password=parollNUM1996!;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Мария\\ХНУРЭ\\5\ семестр\\Асп\\MVCApp\\MVCApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GoodsEntities']/@connectionString" />
   </parameter>
-  <parameter name="UsersEntities-Web.config Connection String" description="" value="metadata=res://*/Models.Users.csdl|res://*/Models.Users.ssdl|res://*/Models.Users.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=dh1poohcpk.database.windows.net;Initial Catalog=Users;Persist Security Info=True;User ID=Evgeniy;Password=parollNUM1996!;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Евгений\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCApp\\MVCApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UsersEntities']/@connectionString" />
+  <parameter name="UsersEntities-Web.config Connection String" description="" value="metadata=res://*/Models.Users.csdl|res://*/Models.Users.ssdl|res://*/Models.Users.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=dh1poohcpk.database.windows.net;initial catalog=Users;persist security info=True;user id=Evgeniy;password=parollNUM1996!;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Мария\\ХНУРЭ\\5\ семестр\\Асп\\MVCApp\\MVCApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UsersEntities']/@connectionString" />
   </parameter>
 </parameters>
